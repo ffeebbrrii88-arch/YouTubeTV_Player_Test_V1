@@ -11,8 +11,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
-rootProject.name="YouTubeTV_Player_Test_V1"
+rootProject.name = "YouTubeTV_Player_Test_V1"
 include(":app")
